@@ -6,8 +6,8 @@ __________________________________________________________________
 ## Usage:
 
 From your command line, clone the repository:<br>
-`git clone https://github.com/ljsauer/palettable.git`
-or, click on the green "Code" button at the top of the page and click "Download ZIP"<br>
+`git clone https://github.com/ljsauer/palettable.git`<br>
+Or, click on the green "Code" button at the top of the page and click "Download ZIP"<br>
 
 Again from the command line, install the packages in requirements.txt:<br>
 `pip install -r requirements.txt`<br>
