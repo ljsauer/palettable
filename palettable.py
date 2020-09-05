@@ -66,6 +66,7 @@ class ColorPalette:
     def show_image_with_palette(self, output):
         self.add_palette_to_image()
         temp_image = cv2.resize(self.image, (self.W//5, self.H//5))
+        print("Press 's' to save your palettable image")
         cv2.imshow("Made palettable", temp_image)
         key = cv2.waitKey(0) & 0xFF
         if key == ord('s'):
@@ -73,6 +74,8 @@ class ColorPalette:
                              " this image: ")
             print("Saving as:", filename+'.jpg')
             cv2.imwrite(output + filename + '.jpg', self.image)
+        cv2.destroyAllWindows()
+        return
 
 
 """
